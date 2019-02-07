@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8215f024-1a8d-4347-a1ff-79dafc70a8d4}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile />
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>Global|PythonCore|3.7-32</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="doc\conf.py" />
+    <Compile Include="product_configurator\models\product.py" />
+    <Compile Include="product_configurator\models\product_attribute.py" />
+    <Compile Include="product_configurator\models\product_config.py" />
+    <Compile Include="product_configurator\models\__init__.py" />
+    <Compile Include="product_configurator\tests\test_configuration_rules.py" />
+    <Compile Include="product_configurator\tests\test_create.py" />
+    <Compile Include="product_configurator\tests\test_wizard.py" />
+    <Compile Include="product_configurator\tests\__init__.py" />
+    <Compile Include="product_configurator\wizard\product_configurator.py" />
+    <Compile Include="product_configurator\wizard\__init__.py" />
+    <Compile Include="product_configurator\__init__.py" />
+    <Compile Include="product_configurator\__manifest__.py" />
+    <Compile Include="product_configurator_mrp\models\mrp.py" />
+    <Compile Include="product_configurator_mrp\models\__init__.py" />
+    <Compile Include="product_configurator_mrp\wizard\product_configurator_mrp.py" />
+    <Compile Include="product_configurator_mrp\wizard\__init__.py" />
+    <Compile Include="product_configurator_mrp\__init__.py" />
+    <Compile Include="product_configurator_mrp\__manifest__.py" />
+    <Compile Include="product_configurator_purchase\models\purchase.py" />
+    <Compile Include="product_configurator_purchase\models\__init__.py" />
+    <Compile Include="product_configurator_purchase\wizard\product_configurator.py" />
+    <Compile Include="product_configurator_purchase\wizard\__init__.py" />
+    <Compile Include="product_configurator_purchase\__init__.py" />
+    <Compile Include="product_configurator_purchase\__manifest__.py" />
+    <Compile Include="product_configurator_sale\models\sale.py" />
+    <Compile Include="product_configurator_sale\models\__init__.py" />
+    <Compile Include="product_configurator_sale\wizard\product_configurator.py" />
+    <Compile Include="product_configurator_sale\wizard\__init__.py" />
+    <Compile Include="product_configurator_sale\__init__.py" />
+    <Compile Include="product_configurator_sale\__manifest__.py" />
+    <Compile Include="product_configurator_stock\models\stock.py" />
+    <Compile Include="product_configurator_stock\models\__init__.py" />
+    <Compile Include="product_configurator_stock\wizard\product_configurator.py" />
+    <Compile Include="product_configurator_stock\wizard\__init__.py" />
+    <Compile Include="product_configurator_stock\__init__.py" />
+    <Compile Include="product_configurator_stock\__manifest__.py" />
+    <Compile Include="product_configurator_subconfig_wip\models\product.py" />
+    <Compile Include="product_configurator_subconfig_wip\models\product_config.py" />
+    <Compile Include="product_configurator_subconfig_wip\models\__init__.py" />
+    <Compile Include="product_configurator_subconfig_wip\tests\__init__.py" />
+    <Compile Include="product_configurator_subconfig_wip\wizard\product_configurator.py" />
+    <Compile Include="product_configurator_subconfig_wip\wizard\__init__.py" />
+    <Compile Include="product_configurator_subconfig_wip\__init__.py" />
+    <Compile Include="product_configurator_subconfig_wip\__manifest__.py" />
+    <Compile Include="website_product_configurator_mrp_wip\controllers\main.py" />
+    <Compile Include="website_product_configurator_mrp_wip\controllers\__init__.py" />
+    <Compile Include="website_product_configurator_mrp_wip\__init__.py" />
+    <Compile Include="website_product_configurator_mrp_wip\__manifest__.py" />
+    <Compile Include="website_product_configurator_wip\controllers\main.py" />
+    <Compile Include="website_product_configurator_wip\controllers\__init__.py" />
+    <Compile Include="website_product_configurator_wip\models\product_config.py" />
+    <Compile Include="website_product_configurator_wip\models\sale.py" />
+    <Compile Include="website_product_configurator_wip\models\__init__.py" />
+    <Compile Include="website_product_configurator_wip\tests\test_configuration_process.py" />
+    <Compile Include="website_product_configurator_wip\tests\__init__.py" />
+    <Compile Include="website_product_configurator_wip\website.py" />
+    <Compile Include="website_product_configurator_wip\__init__.py" />
+    <Compile Include="website_product_configurator_wip\__manifest__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="doc\functional\images\adding_image1.png" />
+    <Content Include="doc\functional\images\adding_product1.png" />
+    <Content Include="doc\functional\images\adding_product2.png" />
+    <Content Include="doc\functional\images\adding_product3.png" />
+    <Content Include="doc\functional\images\adding_product4.png" />
+    <Content Include="doc\functional\images\adding_product5.png" />
+    <Content Include="doc\functional\images\configurator.png" />
+    <Content Include="doc\functional\images\config_button_off.png" />
+    <Content Include="doc\functional\images\config_button_on.png" />
+    <Content Include="doc\functional\images\conf_restriction1.png" />
+    <Content Include="doc\functional\images\conf_restriction2.png" />
+    <Content Include="doc\functional\images\conf_steps1.png" />
+    <Content Include="doc\functional\images\conf_steps2.png" />
+    <Content Include="doc\functional\images\logo.png" />
+    <Content Include="doc\images\logo.png" />
+    <Content Include="doc\technical\images\configuration-process-diagram.png" />
+    <Content Include="doc\_static\style.css" />
+    <Content Include="doc\_templates\layout.html" />
+    <Content Include="product_configurator\static\css\style.css" />
+    <Content Include="product_configurator\static\description\configurable-template.png" />
+    <Content Include="product_configurator\static\description\cover.png" />
+    <Content Include="product_configurator\static\description\icon.png" />
+    <Content Include="product_configurator\static\description\index.html" />
+    <Content Include="product_configurator\static\description\odoo-community-interface.png" />
+    <Content Include="product_configurator\static\description\odoo-enterprise-interface.png" />
+    <Content Include="product_configurator\static\description\pledra-logo.png" />
+    <Content Include="product_configurator\static\description\quotation-updated.png" />
+    <Content Include="product_configurator\static\description\quotation.png" />
+    <Content Include="product_configurator\static\description\wizard-color.png" />
+    <Content Include="product_configurator\static\description\wizard-last-step.png" />
+    <Content Include="product_configurator\static\description\wizard-template.png" />
+    <Content Include="product_configurator\static\img\2-series-coupe-black-star-spoke-384.jpg" />
+    <Content Include="product_configurator\static\img\2-series-coupe-black-star-spoke-387.jpg" />
+    <Content Include="product_configurator\static\img\2-series-coupe-black.jpg" />
+    <Content Include="product_configurator\static\img\2-series-coupe-red-star-spoke-384.jpg" />
+    <Content Include="product_configurator\static\img\2-series-coupe-red-star-spoke-387.jpg" />
+    <Content Include="product_configurator\static\img\2-series-coupe-silver-star-spoke-384.jpg" />
+    <Content Include="product_configurator\static\img\2-series-coupe-silver-star-spoke-387.jpg" />
+    <Content Include="product_configurator\static\img\2-series-coupe-silver.jpg" />
+    <Content Include="product_configurator\static\img\2-series-coupe.jpg" />
+    <Content Include="product_configurator\static\img\product-advantage.jpg" />
+    <Content Include="product_configurator\static\img\product-armrest.jpg" />
+    <Content Include="product_configurator\static\img\product-engine.jpg" />
+    <Content Include="product_configurator\static\img\product-luxury-line.jpg" />
+    <Content Include="product_configurator\static\img\product-m-sport.jpg" />
+    <Content Include="product_configurator\static\img\product-paint-silver.jpg" />
+    <Content Include="product_configurator\static\img\product-smoker-package.jpg" />
+    <Content Include="product_configurator\static\img\product-sport-line.jpg" />
+    <Content Include="product_configurator\static\img\product-sunroof.jpg" />
+    <Content Include="product_configurator\static\img\product-towhook.jpg" />
+    <Content Include="product_configurator\static\img\product-transmission-steptronic-sport.jpg" />
+    <Content Include="product_configurator\static\img\product-transmission-steptronic.jpg" />
+    <Content Include="product_configurator\static\js\data_manager.js" />
+    <Content Include="product_configurator\static\js\form_widgets.js" />
+    <Content Include="product_configurator_mrp\static\description\icon.png" />
+    <Content Include="product_configurator_purchase\static\description\icon.png" />
+    <Content Include="product_configurator_sale\static\description\icon.png" />
+    <Content Include="product_configurator_stock\static\description\icon.png" />
+    <Content Include="product_configurator_stock\static\js\form_widgets.js" />
+    <Content Include="product_configurator_subconfig_wip\static\description\icon.png" />
+    <Content Include="product_configurator_subconfig_wip\static\description\index.html" />
+    <Content Include="website_product_configurator_wip\static\description\cover.png" />
+    <Content Include="website_product_configurator_wip\static\description\icon.png" />
+    <Content Include="website_product_configurator_wip\static\src\css\custom.css" />
+    <Content Include="website_product_configurator_wip\static\src\js\jquery.validate.js" />
+    <Content Include="website_product_configurator_wip\static\src\js\product_config.js" />
+    <Content Include="website_product_configurator_wip\static\src\js\website_product_config_tour_configure.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="doc" />
+    <Folder Include="doc\functional\" />
+    <Folder Include="doc\functional\images" />
+    <Folder Include="doc\images" />
+    <Folder Include="doc\technical\" />
+    <Folder Include="doc\technical\images" />
+    <Folder Include="doc\_static" />
+    <Folder Include="doc\_templates" />
+    <Folder Include="product_configurator" />
+    <Folder Include="product_configurator\models" />
+    <Folder Include="product_configurator\static\" />
+    <Folder Include="product_configurator\static\css" />
+    <Folder Include="product_configurator\static\description" />
+    <Folder Include="product_configurator\static\img" />
+    <Folder Include="product_configurator\static\js" />
+    <Folder Include="product_configurator\tests" />
+    <Folder Include="product_configurator\wizard" />
+    <Folder Include="product_configurator_mrp" />
+    <Folder Include="product_configurator_mrp\models" />
+    <Folder Include="product_configurator_mrp\static\" />
+    <Folder Include="product_configurator_mrp\static\description" />
+    <Folder Include="product_configurator_mrp\wizard" />
+    <Folder Include="product_configurator_purchase" />
+    <Folder Include="product_configurator_purchase\models" />
+    <Folder Include="product_configurator_purchase\static\" />
+    <Folder Include="product_configurator_purchase\static\description" />
+    <Folder Include="product_configurator_purchase\wizard" />
+    <Folder Include="product_configurator_sale" />
+    <Folder Include="product_configurator_sale\models" />
+    <Folder Include="product_configurator_sale\static\" />
+    <Folder Include="product_configurator_sale\static\description" />
+    <Folder Include="product_configurator_sale\wizard" />
+    <Folder Include="product_configurator_stock" />
+    <Folder Include="product_configurator_stock\models" />
+    <Folder Include="product_configurator_stock\static\" />
+    <Folder Include="product_configurator_stock\static\description" />
+    <Folder Include="product_configurator_stock\static\js" />
+    <Folder Include="product_configurator_stock\wizard" />
+    <Folder Include="product_configurator_subconfig_wip" />
+    <Folder Include="product_configurator_subconfig_wip\models" />
+    <Folder Include="product_configurator_subconfig_wip\static\" />
+    <Folder Include="product_configurator_subconfig_wip\static\description" />
+    <Folder Include="product_configurator_subconfig_wip\tests" />
+    <Folder Include="product_configurator_subconfig_wip\wizard" />
+    <Folder Include="website_product_configurator_mrp_wip" />
+    <Folder Include="website_product_configurator_mrp_wip\controllers" />
+    <Folder Include="website_product_configurator_wip" />
+    <Folder Include="website_product_configurator_wip\controllers" />
+    <Folder Include="website_product_configurator_wip\models" />
+    <Folder Include="website_product_configurator_wip\static\" />
+    <Folder Include="website_product_configurator_wip\static\description" />
+    <Folder Include="website_product_configurator_wip\static\src\" />
+    <Folder Include="website_product_configurator_wip\static\src\css" />
+    <Folder Include="website_product_configurator_wip\static\src\js" />
+    <Folder Include="website_product_configurator_wip\tests" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.7-32" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
