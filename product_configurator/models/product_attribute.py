@@ -127,8 +127,8 @@ class ProductAttribute(models.Model):
                 )
 
 
-class ProductAttributeLine(models.Model):
-    _inherit = 'product.attribute.line'
+class ProductTemplateAttributeLine(models.Model):
+    _inherit = 'product.template.attribute.line'
 
     @api.onchange('attribute_id')
     def onchange_attribute(self):
@@ -157,7 +157,7 @@ class ProductAttributeLine(models.Model):
         help='Allow selection of multiple values for this attribute?'
     )
     default_val = fields.Many2one(
-        comodel_name='product.attribute.value',
+        comodel_name='product.template.attribute.value',
         string='Default Value'
     )
 
@@ -183,8 +183,8 @@ class ProductAttributeLine(models.Model):
                 )
 
 
-class ProductAttributeValue(models.Model):
-    _inherit = 'product.attribute.value'
+class ProductTemplateAttributeValue(models.Model):
+    _inherit = 'product.template.attribute.value'
 
     @api.multi
     def copy(self, default=None):
@@ -203,7 +203,7 @@ class ProductAttributeValue(models.Model):
         string='Related Product'
     )
     attribute_line_ids = fields.Many2many(
-        comodel_name='product.attribute.line',
+        comodel_name='product.template.attribute.line',
         string="Attribute Lines"
     )
 

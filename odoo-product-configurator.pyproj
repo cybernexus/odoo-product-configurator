@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{8215f024-1a8d-4347-a1ff-79dafc70a8d4}</ProjectGuid>
+    <ProjectGuid>{8953943d-5223-4b6c-bac4-f0db3e72e559}</ProjectGuid>
     <ProjectHome />
     <StartupFile />
     <SearchPath />
@@ -150,16 +150,13 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="doc" />
-    <Folder Include="doc\functional\" />
     <Folder Include="doc\functional\images" />
     <Folder Include="doc\images" />
-    <Folder Include="doc\technical\" />
     <Folder Include="doc\technical\images" />
     <Folder Include="doc\_static" />
     <Folder Include="doc\_templates" />
     <Folder Include="product_configurator" />
     <Folder Include="product_configurator\models" />
-    <Folder Include="product_configurator\static\" />
     <Folder Include="product_configurator\static\css" />
     <Folder Include="product_configurator\static\description" />
     <Folder Include="product_configurator\static\img" />
@@ -168,28 +165,23 @@
     <Folder Include="product_configurator\wizard" />
     <Folder Include="product_configurator_mrp" />
     <Folder Include="product_configurator_mrp\models" />
-    <Folder Include="product_configurator_mrp\static\" />
     <Folder Include="product_configurator_mrp\static\description" />
     <Folder Include="product_configurator_mrp\wizard" />
     <Folder Include="product_configurator_purchase" />
     <Folder Include="product_configurator_purchase\models" />
-    <Folder Include="product_configurator_purchase\static\" />
     <Folder Include="product_configurator_purchase\static\description" />
     <Folder Include="product_configurator_purchase\wizard" />
     <Folder Include="product_configurator_sale" />
     <Folder Include="product_configurator_sale\models" />
-    <Folder Include="product_configurator_sale\static\" />
     <Folder Include="product_configurator_sale\static\description" />
     <Folder Include="product_configurator_sale\wizard" />
     <Folder Include="product_configurator_stock" />
     <Folder Include="product_configurator_stock\models" />
-    <Folder Include="product_configurator_stock\static\" />
     <Folder Include="product_configurator_stock\static\description" />
     <Folder Include="product_configurator_stock\static\js" />
     <Folder Include="product_configurator_stock\wizard" />
     <Folder Include="product_configurator_subconfig_wip" />
     <Folder Include="product_configurator_subconfig_wip\models" />
-    <Folder Include="product_configurator_subconfig_wip\static\" />
     <Folder Include="product_configurator_subconfig_wip\static\description" />
     <Folder Include="product_configurator_subconfig_wip\tests" />
     <Folder Include="product_configurator_subconfig_wip\wizard" />
@@ -198,9 +190,7 @@
     <Folder Include="website_product_configurator_wip" />
     <Folder Include="website_product_configurator_wip\controllers" />
     <Folder Include="website_product_configurator_wip\models" />
-    <Folder Include="website_product_configurator_wip\static\" />
     <Folder Include="website_product_configurator_wip\static\description" />
-    <Folder Include="website_product_configurator_wip\static\src\" />
     <Folder Include="website_product_configurator_wip\static\src\css" />
     <Folder Include="website_product_configurator_wip\static\src\js" />
     <Folder Include="website_product_configurator_wip\tests" />

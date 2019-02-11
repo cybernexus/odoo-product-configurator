@@ -1,7 +1,7 @@
 from lxml import etree
 
 from odoo.osv import orm
-from odoo.addons.base.ir.ir_model import FIELD_TYPES
+from odoo.addons.base.models.ir_model import FIELD_TYPES
 
 from odoo import models, fields, api, _
 from odoo.exceptions import Warning, ValidationError
